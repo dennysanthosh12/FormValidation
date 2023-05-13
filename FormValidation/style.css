@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: none;
+    background-repeat: no-repeat;
+   
+  
+}
+
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+    background: rgb(184,188,189);
+    background: linear-gradient(180deg, rgba(184,188,189,1) 41%, rgba(139,142,143,1) 97%);
+}
+   
+.sub-container{
+    height: fit-content;
+    width: 60%;
+   
+}
+.star-color{
+   color: red;
+}
+.OnlyTextClass{
+   --bs-alert-color: var(--bs-danger-text-emphasis);
+    --bs-alert-bg: var(--bs-danger-bg-subtle);
+    --bs-alert-border-color: var(--bs-danger-border-subtle);
+    --bs-alert-link-color: var(--bs-danger-text-emphasis);
+    --bs-alert-border: var(--bs-border-width) solid var(--bs-alert-border-color);
+    --bs-alert-border-radius: var(--bs-border-radius);
+    color: var(--bs-alert-color);
+    background-color: var(--bs-alert-bg);
+    border: var(--bs-alert-border);
+    border-radius: var(--bs-alert-border-radius);
+    padding: 2px;
+
+
+}
+
+.form-control.error{
+    color:#ff3860 ;
+}
+.error{
+    color: #ff3860;
+}
+@media only screen and (max-width:767px){
+    .sub-container{
+        width: 80%;
+    }
+    
+}
